@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gemini Notebook Helper</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #1a1a1a; max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; background: #fff; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  p, li { font-size: 1rem; }
+  .subtitle { color: #555; margin-top: 0; }
+  a { color: #1a56db; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e5e5e5; color: #555; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<h1>Gemini Notebook Helper</h1>
+<p class="subtitle">A personal helper application for use with Gemini Notebook (NotebookLM).</p>
+
+<h2>What this application is</h2>
+<p>
+  Gemini Notebook Helper is a small personal-use application developed and used by a single
+  individual — the developer himself, Benson Chen. It is not a public product, it is not offered
+  to other users, and it has no sign-up or account system of its own.
+</p>
+<p>
+  The application works through Google's official Gemini Notebook API. Acting only on the
+  developer's own instructions, it helps him organise material in his own personal Google
+  account (<a href="mailto:neihu0122@gmail.com">neihu0122@gmail.com</a>) by creating notebooks
+  and adding sources to them.
+</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Creates new notebooks in the developer's personal Gemini Notebook account.</li>
+  <li>Adds sources to those notebooks: web pages, YouTube videos, plain text, and Markdown.</li>
+  <li>Lists notebooks and sources so their processing status can be checked.</li>
+</ul>
+
+<h2>Data access</h2>
+<p>
+  The application requests a single OAuth scope,
+  <code>https://www.googleapis.com/auth/notebook</code>, which allows it to view and manage
+  notebooks and their sources in the signed-in account. It accesses no other Google data.
+  OAuth credentials are stored only on the developer's own computer, in a permission-locked
+  local store. The application does not operate a server that collects data, does not send data
+  to third parties, does not sell data, and includes no advertising or analytics tracking.
+</p>
+<p>
+  Access can be revoked at any time from the Google Account permissions page. For details on
+  how information is handled, please read the <a href="privacy.html">Privacy Policy</a>.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this application can be sent to
+  <a href="mailto:neihu0122@gmail.com">neihu0122@gmail.com</a>.
+</p>
+
+<footer>
+  Gemini Notebook Helper — a personal project of Benson Chen. This site exists to describe the
+  application for Google OAuth verification purposes.
+</footer>
+
+</body>
+</html>
